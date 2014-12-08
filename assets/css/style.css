@@ -1298,8 +1298,9 @@ h3.tag-header {
 }
 
 code {
+  font-family: consolas, monospace;
   background-color: rgba(0,0,0,0.02);
-  padding: 0.2em 0;
+  padding: 0 0.3em;
   margin: 0;
   display: inline-block;
   border-radius: 2px;

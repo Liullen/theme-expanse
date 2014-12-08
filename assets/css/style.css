@@ -1309,3 +1309,11 @@ code {
   word-wrap: normal;
   border: 0;
 }
+
+div.post-content::-moz-selection {
+  background-color: rgba(16,224,124, 0.2);
+}
+
+div.post-content::selection {
+  background-color: rgba(16,224,124, 0.2);
+}

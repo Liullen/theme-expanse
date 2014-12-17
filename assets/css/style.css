@@ -1312,10 +1312,10 @@ code {
 }
 
 ::-moz-selection {
-  color: 1px 1px #ffffff;
+  color: #ffffff;
   background-color: #d9444a
 }
 ::selection {
-  color: 1px 1px #ffffff;
+  color: #ffffff;
   background-color: #d9444a
 }

@@ -1299,20 +1299,23 @@ h3.tag-header {
 
 code {
   font-family: consolas, monospace;
-  background-color: rgba(0,0,0,0.02);
-  padding: 0 0.3em;
+  background-color: rgba(255, 201, 14, 0.3);
+  padding: 0 0.2em;
   margin: 0;
   display: inline-block;
   border-radius: 2px;
+  border-width: 0;
   max-width: initial;
   overflow: initial;
   word-wrap: normal;
-  border: 0;
+  text-shadow: 1px 1px rgba(255,201,14, 0.3)
 }
 
 ::-moz-selection {
-  background-color: rgba(16,224,124, 0.2);
+  text-shadow: 1px 1px #ffffff;
+  background-color: #d9444a
 }
 ::selection {
-  background-color: rgba(16,224,124, 0.2);
+  text-shadow: 1px 1px #ffffff;
+  background-color: #d9444a
 }

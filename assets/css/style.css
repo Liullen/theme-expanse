@@ -1308,7 +1308,8 @@ code {
   max-width: initial;
   overflow: initial;
   word-wrap: normal;
-  text-shadow: 1px 1px rgba(255,201,14, 0.3)
+  text-shadow: 1px 1px #ffffff;
+  white-space: pre;
 }
 
 ::-moz-selection {
